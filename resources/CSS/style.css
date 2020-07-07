@@ -1,0 +1,64 @@
+/*--------------------------------------------*/
+/*  BASIC SETUP*/
+/*--------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*--------------------------------------------*/
+/*REUSABLE COMPONNENT*/
+/*--------------------------------------------*/
+
+h1{
+    font-weight: 400;
+    font-size: 150%;
+}
+p{
+    font-weight: 300;
+    font-size: 80%;
+}
+.price{
+    font-weight: 400;
+    font-size: 130%;
+    color: #ff136f;
+}
+.container{
+    margin-bottom: 80px;
+}
+.btn-Buy{
+   background-image: linear-gradient(to bottom, #FF5898 0%,#FF136F 100%);
+    color: #fff;
+    font-weight: 400;
+    font-size: 60%;
+    border-radius: 8px;
+    padding: 9px 15px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+
+
+/*--------------------------------------------*/
+/*Banner Section*/
+/*--------------------------------------------*/
+.orange-bg{
+    background-color: #fceae8;
+}
+
+.carousel-item{
+    padding: 20px 30px;
+}
