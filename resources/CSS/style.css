@@ -23,8 +23,22 @@ body{
 /*--------------------------------------------*/
 
 h1{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 150%;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 100%;
+}
+h5{
+    font-weight: 400;
+    font-size: 100%;
+}
+h6{
+    font-weight: 400;
+    font-size: 60%;
+    color: gray;
 }
 p{
     font-weight: 300;
@@ -49,8 +63,12 @@ p{
     border: none;
     
 }
-
-
+button:focus{
+    outline: none;
+}
+footer{
+    text-align: center;
+}
 
 /*--------------------------------------------*/
 /*Banner Section*/
@@ -62,3 +80,40 @@ p{
 .carousel-item{
     padding: 20px 30px;
 }
+
+/*--------------------------------------------*/
+/*Catagories Section*/
+/*--------------------------------------------*/
+.catagories__item1, 
+.catagories__item2, 
+.catagories__item3{
+        padding: 10px 30px;
+        border-radius: 8px;
+}
+.catagories__item1{
+    background-image: linear-gradient(to left,#FF9C35, #FFD019);
+}
+.catagories__item2{
+    background-image: linear-gradient(to left,#FF589B,#FF136F);
+}
+.catagories__item3{
+    background-image: linear-gradient(to left,#4289FF,#07F8C3);
+}
+.catagories h1{
+    color:#fff;
+}
+.catagories img{
+    width: 100px;
+}
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+
+.subscribe{
+    height: 300px;
+}
+
+
+/* This website not full mobile responsive */
